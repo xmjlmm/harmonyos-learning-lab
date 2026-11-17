@@ -1,2 +1,4 @@
 * -text
 # 保留迁移文件原始字节，避免换行转换破坏校验。
+archive/** linguist-generated=true linguist-vendored=true
+*.ets linguist-language=TypeScript
