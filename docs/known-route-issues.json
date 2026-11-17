@@ -1,0 +1,38 @@
+[
+  {
+    "module": "apps/farm-manager",
+    "file": "entry/src/main/ets/pages/ProductPage.ets",
+    "target": "pages/Recording",
+    "reason": "Original project supplies no Recording page."
+  },
+  {
+    "module": "apps/farm-manager",
+    "file": "entry/src/main/ets/pages/RecordPage.ets",
+    "target": "pages/RecordDetail",
+    "reason": "Original project supplies no RecordDetail page."
+  },
+  {
+    "module": "apps/farm-manager",
+    "file": "entry/src/main/ets/pages/RecordPage.ets",
+    "target": "pages/ProductPage",
+    "reason": "Page exists as a component, but this router target is not registered."
+  },
+  {
+    "module": "apps/farm-manager",
+    "file": "entry/src/main/ets/pages/WeatherPage.ets",
+    "target": "pages/WeatherDetailPage",
+    "reason": "Original project supplies no WeatherDetailPage."
+  },
+  {
+    "module": "apps/farm-manager",
+    "file": "entry/src/main/ets/pages/WeatherPage.ets",
+    "target": "pages/SettingsPage",
+    "reason": "SettingsPage is a composed component without a registered router entry."
+  },
+  {
+    "module": "prototypes/farm-assistant",
+    "file": "entry/src/main/ets/pages/Index.ets",
+    "target": "pages/Settings",
+    "reason": "Original prototype supplies no Settings page."
+  }
+]
